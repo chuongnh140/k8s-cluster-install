@@ -16,7 +16,7 @@ sudo apt update -y
 KUBE_VERSION=1.21.0
 
 sudo apt install -y \
-	docker.io \
+#	docker.io \
 	kubelet=${KUBE_VERSION}-00 \
 	kubeadm=${KUBE_VERSION}-00 \
 	kubectl=${KUBE_VERSION}-00
